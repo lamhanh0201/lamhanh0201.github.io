@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+<title>Create product list with CSS3</title>
+<style type="text/css">
+.ProductDetails {display: none;}
+.Student img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #aaa;
+}
+.StudentName {font-weight: bold;}
+.StudentCode {font-style:italic;}
+.StudentCode::before {content: " - ";}
+.Student {
+    text-align: center;
+    width: 150px;
+    margin: 0px 20px;
+    float: left;
+    cursor: pointer;
+}
+.Student:hover .ProductDetails {display: block;}
+</style>
+</head>
+<body>
+ <div>
+    <div class="Student">
+        <img src="C:\Users\Hanh's PC\Downloads\tải xuống (1).jpg" />
+        <div class="ProductDetails">
+            <span class="StudentName">Masao</span>
+            <span class="StudentCode">2307118</span>
+        </div>
+    </div>
+    <div class="Student">
+        <img src="C:\Users\Hanh's PC\Downloads\Shinchan.jpg" />
+        <div class="ProductDetails">
+            <span class="StudentName">Shinchan</span>
+            <span class="StudentCode">2307119</span>
+        </div>
+    </div>
+    <div class="Student">
+        <img src="C:\Users\Hanh's PC\Downloads\tải xuống (2).jpg" />
+        <div class="ProductDetails">
+            <span class="StudentName">Kasama</span>
+            <span class="StudentCode">2307120</span>
+        </div>
+    </div>
+    <div class="Student">
+        <img src="C:\Users\Hanh's PC\Downloads\tải xuống.jpg" />
+        <div class="ProductDetails">
+            <span class="StudentName">Nene</span>
+            <span class="StudentCode">2307121</span>
+        </div>
+    </div>
+    <div class="Student">
+        <img src="C:\Users\Hanh's PC\Downloads\tải xuống (3).jpg" />
+        <div class="ProductDetails">
+            <span class="StudentName">Bo</span>
+            <span class="StudentCode">2307122</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
