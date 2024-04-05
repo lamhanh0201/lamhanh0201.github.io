@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo sự kiện mới</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 150px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+<style type="text/css">
+    .header { 
+            background-image: url(https://i.pinimg.com/564x/7c/2b/f7/7c2bf7bdc3e6d336af1d1749ec977fd0.jpg);
+            background-size: auto auto;
+            }
+            </style>
+        </head>
+        <body class="header">
+            <style>
+                div.a {
+                    text-align: center;
+                }
+            </style>
+
+            <div class="a">
+                <h1>Tạo sự kiện mới</h1>   
+            </div>          
+    <form action="#" method="post">
+        <label for="name">Tên sự kiện:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="time">Thời gian:</label>
+        <input type="text" id="time" name="time" required>
+
+        <label for="message">Địa điểm:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Gửi">
+    </form>
+</body>
+</html>
